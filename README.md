@@ -15,7 +15,7 @@ This is a comprehensive Python-based stock market analysis tool that combines da
 5. [Program Workflow](#program-workflow)
 6. [Module Descriptions](#module-descriptions)
 7. [Statistical Methodology](#statistical-methodology)
-8. [Visualizations](#visualizations)
+8. [Visualisations](#visualisations)
 9. [Metrics Explained](#metrics-explained)
 10. [Limitations & Considerations](#limitations--considerations)
 
