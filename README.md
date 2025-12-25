@@ -57,7 +57,7 @@ This is a comprehensive Python-based stock market analysis tool that combines da
 - **Sortino Ratio** (downside risk focus)
 - **Win rate** and gain/loss ratios
 
-### Visualizations
+### Visualisations
 - **15+ professional charts** covering all aspects of analysis
 - **Price and volume plots**
 - **Moving average overlays** with trading signals
