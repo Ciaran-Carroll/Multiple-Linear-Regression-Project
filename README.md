@@ -534,7 +534,7 @@ Sortino_Ratio = (Annualised_Return - Risk_Free_Rate) / Downside_Volatility
 | Metric | Formula | Good Value | Interpretation |
 |--------|---------|------------|----------------|
 | **Total Return** | (End - Start) / Start | > 0% | Overall gain/loss |
-| **Annualized Return** | (End/Start)^(1/years) - 1 | > 10% | Yearly average return |
+| **Annualised Return** | (End/Start)^(1/years) - 1 | > 10% | Yearly average return |
 | **RMSE** | √(Σ(actual - pred)² / n) | Lower | Avg prediction error |
 | **R² Score** | 1 - (RSS / TSS) | > 0.7 | % variance explained |
 | **MAE** | Σ\|actual - pred\| / n | Lower | Avg absolute error |
