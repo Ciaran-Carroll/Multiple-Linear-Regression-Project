@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a comprehensive Python-based stock market analysis tool that combines data acquisition, statistical hypothesis testing, machine learning predictions, technical analysis, and investment performance metrics. The program provides a complete workflow for analyzing historical stock data and making informed predictions about future price movements.
+This is a comprehensive Python-based stock market analysis tool that combines data acquisition, statistical hypothesis testing, machine learning predictions, technical analysis, and investment performance metrics. The program provides a complete workflow for analysing historical stock data and making informed predictions about future price movements.
 
 ---
 
@@ -27,7 +27,7 @@ This is a comprehensive Python-based stock market analysis tool that combines da
 - **Automated data download** from Yahoo Finance API
 - **Data validation** and error handling
 - **CSV export** functionality for offline analysis
-- **Date range customization**
+- **Date range customisation**
 
 ### Statistical Analysis
 - **Normality testing** (Shapiro-Wilk test)
@@ -49,8 +49,8 @@ This is a comprehensive Python-based stock market analysis tool that combines da
 - **Support/resistance identification**
 
 ### Risk & Performance Metrics
-- **Return calculations** (daily, cumulative, annualized)
-- **Volatility measurements** (daily and annualized)
+- **Return calculations** (daily, cumulative, annualised)
+- **Volatility measurements** (daily and annualised)
 - **Maximum drawdown** analysis
 - **Value at Risk (VaR)** at 95% confidence
 - **Sharpe Ratio** (risk-adjusted returns)
@@ -74,7 +74,7 @@ This is a comprehensive Python-based stock market analysis tool that combines da
 
 ```python
 yfinance          # Yahoo Finance data download
-matplotlib        # Data visualization
+matplotlib        # Data visualisation
 pandas            # Data manipulation
 scikit-learn      # Machine learning models
 scipy             # Statistical tests
@@ -125,7 +125,7 @@ The program executes in the following sequence:
 ```
 1. Download Stock Data
    ↓
-2. Visualize Price & Volume
+2. Visualise Price & Volume
    ↓
 3. Run Hypothesis Tests
    ↓
@@ -133,7 +133,7 @@ The program executes in the following sequence:
    ↓
 5. Calculate Moving Averages
    ↓
-6. Analyze Returns & Risk
+6. Analyse Returns & Risk
    ↓
 7. Display Results & Charts
 ```
@@ -172,7 +172,7 @@ Saved dataset to AAPL.csv
 
 ---
 
-### 2. Data Visualization Module
+### 2. Data Visualisation Module
 
 **Function:** `plot_stock_data(data, ticker)`
 
@@ -183,7 +183,7 @@ Saved dataset to AAPL.csv
 - Volume displayed in millions (M)
 - Date formatting (YYYY-MM)
 - Grid lines for readability
-- Color-coded styling
+- Colour-coded styling
 - Rotated date labels
 
 **Outputs:**
@@ -287,7 +287,7 @@ predictions = model.predict(X_test)
 
 **1. RMSE (Root Mean Squared Error)**
 - Measures average prediction error in dollars
-- Penalizes large errors more heavily
+- Penalises large errors more heavily
 - Lower is better
 
 **2. R² Score (Coefficient of Determination)**
@@ -415,9 +415,9 @@ Daily_Return = (Close_today - Close_yesterday) / Close_yesterday
 Cumulative_Return = (1 + Daily_Return₁) × (1 + Daily_Return₂) × ... - 1
 ```
 
-**3. Annualized Returns**
+**3. Annualised Returns**
 ```python
-Annualized_Return = (End_Price / Start_Price)^(1 / Years) - 1
+Annualised_Return = (End_Price / Start_Price)^(1 / Years) - 1
 ```
 
 #### Risk Metrics:
@@ -426,9 +426,9 @@ Annualized_Return = (End_Price / Start_Price)^(1 / Years) - 1
 - Standard deviation of daily returns
 - Measures day-to-day price fluctuations
 
-**2. Annualized Volatility**
+**2. Annualised Volatility**
 ```python
-Annualized_Volatility = Daily_Volatility × √252
+Annualised_Volatility = Daily_Volatility × √252
 ```
 - 252 = typical trading days per year
 - Higher volatility = higher risk
@@ -447,7 +447,7 @@ Annualized_Volatility = Daily_Volatility × √252
 
 **1. Sharpe Ratio**
 ```python
-Sharpe_Ratio = (Annualized_Return - Risk_Free_Rate) / Annualized_Volatility
+Sharpe_Ratio = (Annualised_Return - Risk_Free_Rate) / Annualised_Volatility
 ```
 
 **Interpretation:**
@@ -460,7 +460,7 @@ Sharpe_Ratio = (Annualized_Return - Risk_Free_Rate) / Annualized_Volatility
 
 **2. Sortino Ratio**
 ```python
-Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
+Sortino_Ratio = (Annualised_Return - Risk_Free_Rate) / Downside_Volatility
 ```
 
 **Interpretation:**
@@ -489,11 +489,11 @@ Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
 
 ---
 
-## Visualizations
+## Visualisations
 
 ### Total: 15 Charts Across All Modules
 
-#### Module 2: Data Visualization (2 charts)
+#### Module 2: Data Visualisation (2 charts)
 1. **Closing Price Over Time**
    - Line chart with currency formatting
 2. **Trading Volume**
@@ -521,7 +521,7 @@ Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
 9. **Returns Distribution Histogram**
    - Shows frequency of different return levels
 10. **Drawdown Chart**
-    - Visualizes risk periods
+    - Visualises risk periods
 11. **Rolling 30-Day Returns**
     - Shows momentum over time
 
@@ -634,7 +634,7 @@ Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
 ### For Using This Program
 
 1. **Use Multiple Timeframes**
-   - Analyze different date ranges
+   - Analyse different date ranges
    - Compare recent vs long-term performance
    - Watch for regime changes
 
@@ -678,7 +678,7 @@ Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
    - Market indices correlation
 
 3. **Advanced Analysis**
-   - Portfolio optimization
+   - Portfolio optimisation
    - Monte Carlo simulation
    - Regime detection
    - Multi-asset correlation
@@ -693,6 +693,6 @@ Sortino_Ratio = (Annualized_Return - Risk_Free_Rate) / Downside_Volatility
 
 ## Conclusion
 
-This program provides a comprehensive framework for stock market analysis, combining statistical rigor with practical trading insights. While it offers valuable analytical tools, users should remember that all financial predictions carry inherent uncertainty and should be used as part of a broader investment strategy that includes proper risk management and diversification.
+This program provides a comprehensive framework for stock market analysis, combining statistical rigour with practical trading insights. While it offers valuable analytical tools, users should remember that all financial predictions carry inherent uncertainty and should be used as part of a broader investment strategy that includes proper risk management and diversification.
 
 **Disclaimer:** This tool is for educational and research purposes only. It does not constitute financial advice. Always consult with a qualified financial advisor before making investment decisions.
